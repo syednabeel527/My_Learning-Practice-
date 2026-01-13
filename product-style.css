@@ -1,0 +1,27 @@
+div>p{
+    background-color: lightblue;
+}
+
+h2+p {
+    font-weight: bold;
+    font-style: italic;
+}
+h2[data-price] {
+    color: green;
+}
+
+.product:hover {
+    background-color: lightgrey;
+}
+
+.product ul li:first-child{
+    color: red;
+}
+ 
+.reviews p::first-letter {
+    color: purple;
+}
+
+.product:nth-child(2)  {
+    border-color: orange;
+}
