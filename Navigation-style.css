@@ -1,0 +1,25 @@
+li>a{
+    padding: 0%;
+    color: blue;
+}
+h3+span{
+    background-color: yellow;
+}
+.card:hover {
+    transform: rotate(2deg);
+}
+.card ul li:last-child{
+    background-color: green;
+}
+.price::after{
+    color: red ;
+    
+}
+nav>li:nth-child(2n) {
+    font-style: italic;
+}
+
+a[data-active="true"] {
+    font-weight: bold;
+    text-decoration: underline ;
+}
