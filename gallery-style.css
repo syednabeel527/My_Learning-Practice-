@@ -1,0 +1,29 @@
+.photo > figcaption { 
+    background-color: lavender; 
+}
+
+figcaption + p { 
+    font-style: italic; 
+    color: gray; 
+}
+
+[data-year="2024"] { 
+    border: 3px solid gold; 
+}
+
+.gallery:hover { 
+    transform: scale(1.05); 
+}
+
+figcaption + p:only-child { 
+    color: blue; 
+}
+
+.photo.active::before {
+    content: "🔍 ";
+    font-size: 20px;
+}
+
+.photo:nth-of-type(odd) { 
+    background-color: lightblue; 
+}
